@@ -1,4 +1,5 @@
 import { SidebarMenu } from "@/assets/data/SidebarMenu";
+import Navbar from "@/components/Navbar/Navbar";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { ChevronLeft, LogOut } from "lucide-react";
 import { Link, Outlet } from "react-router";
@@ -68,7 +69,7 @@ const MainLayout = () => {
         </div>
       </aside>
       <main className="w-full overflow-y-auto">
-        <div>Navbar</div>
+        <Navbar />
         <Outlet />
       </main>
     </div>
