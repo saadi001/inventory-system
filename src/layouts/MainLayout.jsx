@@ -1,7 +1,7 @@
 import { SidebarMenu } from "@/assets/data/SidebarMenu";
 import Navbar from "@/components/Navbar/Navbar";
 import { ScrollArea } from "@/components/ui/scroll-area";
-import { ChevronLeft, LogOut } from "lucide-react";
+import { LogOut } from "lucide-react";
 import { Link, Outlet } from "react-router";
 import logo from "../assets/logo/logo.png";
 
@@ -15,9 +15,9 @@ const MainLayout = () => {
           <div className="flex justify-center">
             <img src={logo} alt="logo" className="w-20" />
           </div>
-          <div className="border rounded-full bg-white absolute top-1/2 -translate-y-1/2  -right-3 w-6 h-6 flex items-center justify-center cursor-pointer hover:bg-slate-100 z-[50]">
+          {/* <div className="border rounded-full bg-white absolute top-1/2 -translate-y-1/2  -right-3 w-6 h-6 flex items-center justify-center cursor-pointer hover:bg-slate-100 z-[50]">
             <ChevronLeft size={16} className="text-slate-600" />
-          </div>
+          </div> */}
         </div>
 
         {/* Middle: Scrollable Menu */}
