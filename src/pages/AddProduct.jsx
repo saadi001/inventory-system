@@ -7,9 +7,9 @@ const AddProduct = () => {
   const [value, setValue] = useState("");
   const educationsData = ["SSC", "HSC", "Bachelor", "Masters", "Ph.D."];
   return (
-    <div className="max-w-[1500px] xl:mx-auto xl:px-16 lg:px-14 md:px-10 sm:px-6 px-3 mt-3 mb-8">
-      <h4 className="text-xl font-light">Add product</h4>
-      <form className="border rounded-lg px-6 p-4 flex flex-col gap-5 mt-3">
+    <div className="max-w-[1500px] xl:mx-auto xl:px-16 lg:px-14 md:px-10 sm:px-6 px-3 mt-5 mb-8">
+      <h4 className="text-2xl font-light">Add product</h4>
+      <form className="border rounded-lg px-6 p-4 flex flex-col gap-5 mt-5">
         <div className="grid grid-cols-2 gap-x-3 gap-y-2">
           {/* <CustomInput
             id={"brand"}
@@ -103,7 +103,7 @@ const AddProduct = () => {
             type="submit"
             className="bg-primaryColor hover:bg-primaryHover transition-all px-5 py-2 rounded-lg text-white"
           >
-            Create
+            ADD
           </button>
         </div>
       </form>

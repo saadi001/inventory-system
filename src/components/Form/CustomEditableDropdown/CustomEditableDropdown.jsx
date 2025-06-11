@@ -63,10 +63,10 @@ const CustomEditableDropdown = ({
 
   return (
     <div className="relative" ref={dropdownRef}>
-      <p className="mb-1 text-sm font-medium text-primaryGreen">
+      <label className="mb-1 text-sm font-medium text-primaryGreen">
         {label}
         {required && <span className="text-red-500">*</span>}
-      </p>
+      </label>
       <div className="relative">
         <input
           type="text"
