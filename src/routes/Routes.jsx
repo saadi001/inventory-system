@@ -1,7 +1,9 @@
 import Home from "@/Home/Home";
 import MainLayout from "@/layouts/MainLayout";
+import AddProduct from "@/pages/AddProduct";
 import CreateSale from "@/pages/CreateSale";
 import SaleHistory from "@/pages/SaleHistory";
+import SearchProduct from "@/pages/SearchProduct";
 import { createBrowserRouter } from "react-router";
 
 export const routes = createBrowserRouter([
@@ -14,12 +16,20 @@ export const routes = createBrowserRouter([
         element: <Home />,
       },
       {
+        path: "/add-product",
+        element: <AddProduct />,
+      },
+      {
         path: "/create-sale",
         element: <CreateSale />,
       },
       {
         path: "/sale-history",
         element: <SaleHistory />,
+      },
+      {
+        path: "/search-product",
+        element: <SearchProduct />,
       },
     ],
   },

@@ -66,3 +66,9 @@
     @apply bg-background text-foreground;
   }
 }
+
+@layer base {
+  custom-container {
+    @apply max-w-[1500px] xl:mx-auto xl:px-16 lg:px-14 md:px-10 sm:px-6 px-3;
+  }
+}
