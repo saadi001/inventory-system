@@ -14,10 +14,14 @@ const CustomDateSelect = ({ btnClass }) => {
     <Popover open={open} onOpenChange={setOpen}>
       <PopoverTrigger>
         <button
-          className={`border hover:border-gray-600 px-3 py-2.5 rounded-lg min-w-44 flex justify-between items-center ${btnClass}`}
+          className={`border hover:border-gray-600 px-3 py-2.5 rounded-lg min-w-44 text-headerColor flex justify-between items-center ${btnClass}`}
         >
           {date ? date.toLocaleDateString() : "Select date"}
-          <Calendar03Icon size={20} strokeWidth={2} />
+          <Calendar03Icon
+            size={20}
+            strokeWidth={2}
+            className="text-slate-700"
+          />
         </button>
       </PopoverTrigger>
       <PopoverContent className={"w-auto p-0 overflow-hidden "}>

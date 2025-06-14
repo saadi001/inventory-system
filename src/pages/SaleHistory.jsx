@@ -2,7 +2,7 @@ import { saleHistoryTabData } from "@/assets/data/saleHistoryTabData";
 import CustomTab from "@/components/CustomTab/CustomTab";
 import CustomDateSelect from "@/components/Form/CustomDateSelect/CustomDateSelect";
 import CustomInput from "@/components/Form/CustomInput/CustomInput";
-import { EllipsisVertical } from "lucide-react";
+import SaleHistoryMenu from "@/components/Form/MenuDropdown/SaleHistoryMenu";
 
 const SaleHistory = () => {
   return (
@@ -21,9 +21,10 @@ const SaleHistory = () => {
               placeholder={"Search Your Product"}
               className={"flex-1"}
             />
-            <div className="p-2 rounded-full hover:bg-slate-600/10 cursor-pointer transition-all">
+            {/* <div className="p-2 rounded-full hover:bg-slate-600/10 cursor-pointer transition-all">
               <EllipsisVertical size={16} className="text-slate-700" />
-            </div>
+            </div> */}
+            <SaleHistoryMenu />
           </div>
         </div>
       </div>
