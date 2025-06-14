@@ -1,6 +1,7 @@
 import Home from "@/Home/Home";
 import MainLayout from "@/layouts/MainLayout";
 import AddProduct from "@/pages/AddProduct";
+import CreateCustomer from "@/pages/CreateCustomer";
 import CreateSale from "@/pages/CreateSale";
 import CreateSupplier from "@/pages/CreateSupplier";
 import ProductList from "@/pages/ProductList";
@@ -40,6 +41,10 @@ export const routes = createBrowserRouter([
       {
         path: "/create-supplier",
         element: <CreateSupplier />,
+      },
+      {
+        path: "/create-customer",
+        element: <CreateCustomer />,
       },
     ],
   },
