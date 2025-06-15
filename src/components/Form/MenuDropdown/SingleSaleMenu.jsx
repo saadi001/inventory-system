@@ -18,10 +18,10 @@ const SingleSaleMenu = () => {
       </DropdownMenuTrigger>
       <DropdownMenuContent align={"start"} side={"left"}>
         <DropdownMenuItem className={"font-baloo "}>
-          <Invoice02Icon strokeWidth={1.8} /> Download invoice
+          <Invoice02Icon strokeWidth={1.5} /> Download invoice
         </DropdownMenuItem>
         <DropdownMenuItem className={"font-baloo "}>
-          <InformationDiamondIcon strokeWidth={1.8} /> Download invoice
+          <InformationDiamondIcon strokeWidth={1.5} /> See details
         </DropdownMenuItem>
         <DropdownMenuArrow fill="#00a76f" />
       </DropdownMenuContent>

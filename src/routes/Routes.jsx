@@ -4,6 +4,7 @@ import AddProduct from "@/pages/AddProduct";
 import CreateCustomer from "@/pages/CreateCustomer";
 import CreateSale from "@/pages/CreateSale";
 import CreateSupplier from "@/pages/CreateSupplier";
+import Login from "@/pages/Login";
 import ProductList from "@/pages/ProductList";
 import SaleHistory from "@/pages/SaleHistory";
 import SearchProduct from "@/pages/SearchProduct";
@@ -47,5 +48,9 @@ export const routes = createBrowserRouter([
         element: <CreateCustomer />,
       },
     ],
+  },
+  {
+    path: "/login",
+    element: <Login />,
   },
 ]);

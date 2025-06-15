@@ -21,7 +21,7 @@ const SaleHistory = () => {
       <div className="mt-5">
         <CustomTab data={saleHistoryTabData} hasUnderBorder={true} />
         {/* filter */}
-        <div className="mt-3 grid grid-cols-2 gap-3">
+        <div className="mt-3 grid grid-cols-2 gap-3 ">
           <div className="grid grid-cols-2 gap-3">
             <CustomDateSelect btnClass={"!w-full"} />
             <CustomDateSelect btnClass={"!w-full"} />
