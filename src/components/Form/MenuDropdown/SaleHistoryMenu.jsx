@@ -19,14 +19,14 @@ const SaleHistoryMenu = () => {
       <DropdownMenuContent align={"end"}>
         <DropdownMenuItem>
           <div className="flex items-center gap-2 font-baloo text-headerColor">
-            <PrinterIcon size={16} strokeWidth={2.5} />
-            Print All
+            <PrinterIcon size={16} strokeWidth={2} />
+            Print All Invoice
           </div>
         </DropdownMenuItem>
         <DropdownMenuItem>
           <div className="flex items-center gap-2 font-baloo text-headerColor">
-            <PrinterCheckIcon size={16} strokeWidth={2.5} />
-            Print Selected
+            <PrinterCheckIcon size={16} strokeWidth={2} />
+            Print Selected Invoice
           </div>
         </DropdownMenuItem>
         <DropdownMenuArrow fill="#00a76f" />
